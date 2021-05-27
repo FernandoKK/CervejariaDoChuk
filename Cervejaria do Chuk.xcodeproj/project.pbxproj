@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0A1CFCFD25B4F061001B8912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1CFCFC25B4F061001B8912 /* AppDelegate.swift */; };
 		0A1CFCFF25B4F061001B8912 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1CFCFE25B4F061001B8912 /* SceneDelegate.swift */; };
-		0A1CFD0125B4F061001B8912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1CFD0025B4F061001B8912 /* ViewController.swift */; };
-		0A1CFD0425B4F061001B8912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1CFD0225B4F061001B8912 /* Main.storyboard */; };
 		0A1CFD0625B4F064001B8912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1CFD0525B4F064001B8912 /* Assets.xcassets */; };
 		0A1CFD0925B4F064001B8912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1CFD0725B4F064001B8912 /* LaunchScreen.storyboard */; };
+		0A1CFD1725B4F22E001B8912 /* Cervejaria_do_Chuk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A1CFD1625B4F22E001B8912 /* Cervejaria_do_Chuk.jpg */; };
+		0A1CFD1D25B4F7EF001B8912 /* PesquisarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1CFD1C25B4F7EF001B8912 /* PesquisarViewController.swift */; };
+		0A1CFD2225B4FCAE001B8912 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1CFD2125B4FCAE001B8912 /* HomeViewController.swift */; };
+		0A1CFD3025B50C92001B8912 /* Cerveja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1CFD2F25B50C92001B8912 /* Cerveja.swift */; };
+		0A1CFD3625B5AD63001B8912 /* CervejaDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1CFD3525B5AD63001B8912 /* CervejaDAO.swift */; };
+		0A1CFD3925B5B8BC001B8912 /* CervejaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1CFD3825B5B8BC001B8912 /* CervejaTableViewCell.swift */; };
+		0A1CFD4925B5BE47001B8912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1CFD4825B5BE47001B8912 /* Main.storyboard */; };
+		0A1CFD5125B5C42B001B8912 /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A1CFD4C25B5C42B001B8912 /* img4.jpg */; };
+		0A1CFD5225B5C42B001B8912 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A1CFD4D25B5C42B001B8912 /* img2.jpg */; };
+		0A1CFD5325B5C42B001B8912 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1CFD4E25B5C42B001B8912 /* img1.png */; };
+		0A1CFD5425B5C42B001B8912 /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A1CFD4F25B5C42B001B8912 /* img5.jpg */; };
+		0A1CFD5525B5C42B001B8912 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A1CFD5025B5C42B001B8912 /* img3.jpg */; };
+		0A4E28BC25B5EC8D00B6F902 /* DetalhesCervejasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E28BB25B5EC8D00B6F902 /* DetalhesCervejasViewController.swift */; };
+		0A70C15C25B9E95D0033B24B /* MontaImagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70C15B25B9E95D0033B24B /* MontaImagem.swift */; };
+		DB42595961EC9C9AD54FD5B2 /* Pods_Cervejaria_do_Chuk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D54B721B0D9D954F720539 /* Pods_Cervejaria_do_Chuk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A1CFCF925B4F061001B8912 /* Cervejaria do Chuk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cervejaria do Chuk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1CFCFC25B4F061001B8912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A1CFCFE25B4F061001B8912 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A1CFD0025B4F061001B8912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0A1CFD0325B4F061001B8912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A1CFD0525B4F064001B8912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A1CFD0825B4F064001B8912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A1CFD0A25B4F064001B8912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1CFD1625B4F22E001B8912 /* Cervejaria_do_Chuk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cervejaria_do_Chuk.jpg; sourceTree = "<group>"; };
+		0A1CFD1C25B4F7EF001B8912 /* PesquisarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesquisarViewController.swift; sourceTree = "<group>"; };
+		0A1CFD2125B4FCAE001B8912 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0A1CFD2F25B50C92001B8912 /* Cerveja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cerveja.swift; sourceTree = "<group>"; };
+		0A1CFD3525B5AD63001B8912 /* CervejaDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CervejaDAO.swift; sourceTree = "<group>"; };
+		0A1CFD3825B5B8BC001B8912 /* CervejaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CervejaTableViewCell.swift; sourceTree = "<group>"; };
+		0A1CFD4825B5BE47001B8912 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0A1CFD4C25B5C42B001B8912 /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img4.jpg; path = "../../../Alura Viagens/Alura Viagens/Assets/img4.jpg"; sourceTree = "<group>"; };
+		0A1CFD4D25B5C42B001B8912 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img2.jpg; path = "../../../Alura Viagens/Alura Viagens/Assets/img2.jpg"; sourceTree = "<group>"; };
+		0A1CFD4E25B5C42B001B8912 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img1.png; path = "../../../Alura Viagens/Alura Viagens/Assets/img1.png"; sourceTree = "<group>"; };
+		0A1CFD4F25B5C42B001B8912 /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img5.jpg; path = "../../../Alura Viagens/Alura Viagens/Assets/img5.jpg"; sourceTree = "<group>"; };
+		0A1CFD5025B5C42B001B8912 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img3.jpg; path = "../../../Alura Viagens/Alura Viagens/Assets/img3.jpg"; sourceTree = "<group>"; };
+		0A4E28BB25B5EC8D00B6F902 /* DetalhesCervejasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesCervejasViewController.swift; sourceTree = "<group>"; };
+		0A70C15B25B9E95D0033B24B /* MontaImagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontaImagem.swift; sourceTree = "<group>"; };
+		1F08A7A1458C69B11B60AA30 /* Pods-Cervejaria do Chuk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cervejaria do Chuk.release.xcconfig"; path = "Target Support Files/Pods-Cervejaria do Chuk/Pods-Cervejaria do Chuk.release.xcconfig"; sourceTree = "<group>"; };
+		60D54B721B0D9D954F720539 /* Pods_Cervejaria_do_Chuk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cervejaria_do_Chuk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3550E236E4A2A7C44CB830 /* Pods-Cervejaria do Chuk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cervejaria do Chuk.debug.xcconfig"; path = "Target Support Files/Pods-Cervejaria do Chuk/Pods-Cervejaria do Chuk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB42595961EC9C9AD54FD5B2 /* Pods_Cervejaria_do_Chuk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +71,8 @@
 			children = (
 				0A1CFCFB25B4F061001B8912 /* Cervejaria do Chuk */,
 				0A1CFCFA25B4F061001B8912 /* Products */,
+				FF4791B6A17EEEBE518D409B /* Pods */,
+				506658ABC6113C5E673E9EBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +88,147 @@
 			isa = PBXGroup;
 			children = (
 				0A1CFCFC25B4F061001B8912 /* AppDelegate.swift */,
+				0A1CFD2925B50984001B8912 /* Model */,
+				0A1CFD1125B4F085001B8912 /* Home */,
+				0A1CFD1925B4F78F001B8912 /* PesquisarCervejas */,
+				0A4E28B725B5E4D100B6F902 /* DetalhesCervejas */,
+				0A1CFD3425B5AD3C001B8912 /* CervejaDAO */,
+				0A70C15A25B9E9330033B24B /* Util */,
+				0A1CFD4825B5BE47001B8912 /* Main.storyboard */,
 				0A1CFCFE25B4F061001B8912 /* SceneDelegate.swift */,
-				0A1CFD0025B4F061001B8912 /* ViewController.swift */,
-				0A1CFD0225B4F061001B8912 /* Main.storyboard */,
 				0A1CFD0525B4F064001B8912 /* Assets.xcassets */,
+				0A1CFD1525B4F22E001B8912 /* Assets */,
 				0A1CFD0725B4F064001B8912 /* LaunchScreen.storyboard */,
 				0A1CFD0A25B4F064001B8912 /* Info.plist */,
 			);
 			path = "Cervejaria do Chuk";
+			sourceTree = "<group>";
+		};
+		0A1CFD1125B4F085001B8912 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0A1CFD1325B4F0A6001B8912 /* View */,
+				0A1CFD1225B4F093001B8912 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0A1CFD1225B4F093001B8912 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A1CFD2125B4FCAE001B8912 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A1CFD1325B4F0A6001B8912 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A1CFD1525B4F22E001B8912 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0A1CFD4E25B5C42B001B8912 /* img1.png */,
+				0A1CFD4D25B5C42B001B8912 /* img2.jpg */,
+				0A1CFD5025B5C42B001B8912 /* img3.jpg */,
+				0A1CFD4C25B5C42B001B8912 /* img4.jpg */,
+				0A1CFD4F25B5C42B001B8912 /* img5.jpg */,
+				0A1CFD1625B4F22E001B8912 /* Cervejaria_do_Chuk.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0A1CFD1925B4F78F001B8912 /* PesquisarCervejas */ = {
+			isa = PBXGroup;
+			children = (
+				0A1CFD1B25B4F7AB001B8912 /* View */,
+				0A1CFD1A25B4F79C001B8912 /* Controller */,
+			);
+			path = PesquisarCervejas;
+			sourceTree = "<group>";
+		};
+		0A1CFD1A25B4F79C001B8912 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A1CFD1C25B4F7EF001B8912 /* PesquisarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A1CFD1B25B4F7AB001B8912 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A1CFD3825B5B8BC001B8912 /* CervejaTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A1CFD2925B50984001B8912 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A1CFD2F25B50C92001B8912 /* Cerveja.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A1CFD3425B5AD3C001B8912 /* CervejaDAO */ = {
+			isa = PBXGroup;
+			children = (
+				0A1CFD3525B5AD63001B8912 /* CervejaDAO.swift */,
+			);
+			path = CervejaDAO;
+			sourceTree = "<group>";
+		};
+		0A4E28B725B5E4D100B6F902 /* DetalhesCervejas */ = {
+			isa = PBXGroup;
+			children = (
+				0A4E28B925B5E50200B6F902 /* View */,
+				0A4E28B825B5E4F200B6F902 /* Controller */,
+			);
+			path = DetalhesCervejas;
+			sourceTree = "<group>";
+		};
+		0A4E28B825B5E4F200B6F902 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A4E28BB25B5EC8D00B6F902 /* DetalhesCervejasViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A4E28B925B5E50200B6F902 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A70C15A25B9E9330033B24B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0A70C15B25B9E95D0033B24B /* MontaImagem.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		506658ABC6113C5E673E9EBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60D54B721B0D9D954F720539 /* Pods_Cervejaria_do_Chuk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF4791B6A17EEEBE518D409B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB3550E236E4A2A7C44CB830 /* Pods-Cervejaria do Chuk.debug.xcconfig */,
+				1F08A7A1458C69B11B60AA30 /* Pods-Cervejaria do Chuk.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A1CFD0D25B4F064001B8912 /* Build configuration list for PBXNativeTarget "Cervejaria do Chuk" */;
 			buildPhases = (
+				81B1E12CF1B5FE5122A74974 /* [CP] Check Pods Manifest.lock */,
 				0A1CFCF525B4F061001B8912 /* Sources */,
 				0A1CFCF625B4F061001B8912 /* Frameworks */,
 				0A1CFCF725B4F061001B8912 /* Resources */,
+				E6C6CC55B98BC80096A108A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,36 +290,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1CFD4925B5BE47001B8912 /* Main.storyboard in Resources */,
+				0A1CFD5425B5C42B001B8912 /* img5.jpg in Resources */,
+				0A1CFD5125B5C42B001B8912 /* img4.jpg in Resources */,
+				0A1CFD5325B5C42B001B8912 /* img1.png in Resources */,
+				0A1CFD5525B5C42B001B8912 /* img3.jpg in Resources */,
 				0A1CFD0925B4F064001B8912 /* LaunchScreen.storyboard in Resources */,
+				0A1CFD1725B4F22E001B8912 /* Cervejaria_do_Chuk.jpg in Resources */,
+				0A1CFD5225B5C42B001B8912 /* img2.jpg in Resources */,
 				0A1CFD0625B4F064001B8912 /* Assets.xcassets in Resources */,
-				0A1CFD0425B4F061001B8912 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81B1E12CF1B5FE5122A74974 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cervejaria do Chuk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C6CC55B98BC80096A108A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cervejaria do Chuk/Pods-Cervejaria do Chuk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cervejaria do Chuk/Pods-Cervejaria do Chuk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cervejaria do Chuk/Pods-Cervejaria do Chuk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A1CFCF525B4F061001B8912 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A1CFD0125B4F061001B8912 /* ViewController.swift in Sources */,
+				0A1CFD1D25B4F7EF001B8912 /* PesquisarViewController.swift in Sources */,
+				0A1CFD3625B5AD63001B8912 /* CervejaDAO.swift in Sources */,
+				0A70C15C25B9E95D0033B24B /* MontaImagem.swift in Sources */,
 				0A1CFCFD25B4F061001B8912 /* AppDelegate.swift in Sources */,
+				0A4E28BC25B5EC8D00B6F902 /* DetalhesCervejasViewController.swift in Sources */,
 				0A1CFCFF25B4F061001B8912 /* SceneDelegate.swift in Sources */,
+				0A1CFD3925B5B8BC001B8912 /* CervejaTableViewCell.swift in Sources */,
+				0A1CFD2225B4FCAE001B8912 /* HomeViewController.swift in Sources */,
+				0A1CFD3025B50C92001B8912 /* Cerveja.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0A1CFD0225B4F061001B8912 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A1CFD0325B4F061001B8912 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0A1CFD0725B4F064001B8912 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +495,7 @@
 		};
 		0A1CFD0E25B4F064001B8912 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3550E236E4A2A7C44CB830 /* Pods-Cervejaria do Chuk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +515,7 @@
 		};
 		0A1CFD0F25B4F064001B8912 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F08A7A1458C69B11B60AA30 /* Pods-Cervejaria do Chuk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
